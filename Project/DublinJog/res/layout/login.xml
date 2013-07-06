@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:fb="http://schemas.android.com/apk/res-auto"
+   
+    
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/test1"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_ui_container"
+    >
+
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirmBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Or Sign Up"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/enterLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="Please enter your login details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/nameTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passTF"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/passTF"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passTF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Confirm" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameTF"
+        android:layout_alignBottom="@+id/nameTF"
+        android:layout_alignParentLeft="true"
+        android:text="Username"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/passTF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTF"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/passTF"
+        android:layout_alignBottom="@+id/passTF"
+        android:layout_toLeftOf="@+id/passTF"
+        android:text="Password"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confirmBtn"
+        android:layout_alignParentBottom="true"
+        android:text="Sign Up" />
+
+</RelativeLayout>
