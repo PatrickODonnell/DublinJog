@@ -1,3 +1,5 @@
+//Code by Patrick and Philip
+
 package com.drunkencow.dublinjog;
 
 import com.facebook.widget.LoginButton;
