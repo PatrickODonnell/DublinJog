@@ -1,3 +1,4 @@
+//Code by Philip and Patrick
 package com.drunkencow.dublinjog;
 
 import java.util.regex.Matcher;
