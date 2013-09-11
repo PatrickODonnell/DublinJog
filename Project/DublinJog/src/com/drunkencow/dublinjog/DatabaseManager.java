@@ -1,4 +1,4 @@
-/*
+/* Philip's code. Slightly modified by Patrick
  * Based from database tutorials found at
  * http://www.anotherandroidblog.com/2010/08/04/android-database-tutorial/#title
  * and
